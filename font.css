@@ -1,0 +1,168 @@
+@font-face {
+	font-family: 'Nexa Bold';
+	src: url('fonts/Nexa Bold.eot');
+	src: local('☺'), url('fonts/Nexa Bold.woff') format('woff'), url('fonts/Nexa Bold.ttf') format('truetype'), url('fonts/Nexa Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nexa Light';
+	src: url('fonts/Nexa Light.eot');
+	src: local('☺'), url('fonts/Nexa Light.woff') format('woff'), url('fonts/Nexa Light.ttf') format('truetype'), url('fonts/Nexa Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    font-family: 'Nexa Light', Arial !important;
+    font-size: 17px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Nexa Bold', Arial !important;
+}
+
+.text-primary {
+    color: #007dc3;
+}
+
+/* Masthead */
+
+#masthead {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+#masthead .butterfly {
+    width: 158px;
+    height: 180px;
+    position: absolute;
+    display: block;
+    background: url('https://rspb.maps.arcgis.com/sharing/rest/content/items/83e0d104702f4a4081f8e09fd062c486/data');
+    z-index: 999;
+    right: 172px;
+    top: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    #masthead .butterfly {
+        right: 70px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #masthead .butterfly {
+        left: 50%;
+        margin-left: -79px;
+        top: -4px;
+    }
+}
+
+#masthead .backdrop {
+	background: url("https://www.arcgis.com/sharing/rest/content/items/88c31b0019264876b99004ef35439278/resources/Headline_Background_Texture__1506690491577__thumb.jpg?token=Yg7RkBCacI_Uaxpuu4jwuFwek4r2aiqSNz8gbt9J14PuvhZS5lNNUfv9dHbp-c-iRD6DKk7BzuAzb2AtsMd-zMstBPrqLfvMsvuvkOHXczM3jEIZ-0yGoGiDhy8e_6530E7ikzTjntuWzaTcbhTLFfXV2xfAX3Q1dpxqKNyUrTJTKKh3uyKgBVpk3dbsiDrlyK3RKNY4dmQYZmbPbYZcNDRJZMlrjZhOq-WPGWQ5nKY.") center;
+	background-size: contain;
+	margin: auto;
+	margin-top: 40px;
+	width: 75vw;
+}
+
+#masthead .text {
+	font: bolder 100px 'Nexa Bold';
+	letter-spacing: -2px;
+	text-align: center;
+	margin: 0;
+}
+
+#masthead .lighten {
+	color: black;
+	mix-blend-mode: lighten;
+	background-color: #fff;
+}
+
+/* Find Data */
+
+.page-index #main-region section:nth-child(2) {
+    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 86%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 10%, 100% 86%, 0 100%);
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.page-index .jumbotron {
+    margin-top: 0;
+}
+
+.jumbotron h1 {
+    font-size: 52px;
+    color: #fff;
+    text-shadow: none;
+}
+
+/* Category Cards */
+
+.page-index #main-region section:nth-child(4) {
+    padding-top: 40px;
+    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 100%);
+}
+
+.page-index #main-region section:nth-child(6) {
+    padding-bottom: 80px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 86% 100%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 86%, 0 100%);
+}
+
+.category-card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.category-card .card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.category-card .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.category-card .card-title {
+    margin-bottom: .75rem;
+    font-size: 1.6rem;
+}
+
+/* LAtest Datasets */
+
+table.latest {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table.latest td,
+table.latest th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+table.latest tr:nth-child(even) {
+}
