@@ -1,0 +1,174 @@
+/* ---- HEADER ----------------------*/
+
+#header {
+	background: #242833;
+	width: 100%;
+}
+
+#header .container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header .nav a {
+	color: #fff;
+}
+
+#header .status {
+	float: right!important;
+}
+
+#header .btn.small, 
+#header_map_signin .btn.small,
+#webmap-header .btn.small {
+	color: #fff;
+}
+
+#header .dropdown-wrapper .dropdown:after, #items .dropdown-wrapper .dropdown:after, #header .dropdown-wrapper .dropdown:after, #header_map_signin .dropdown-wrapper .dropdown:after {
+	border-top-color: #fff;
+}
+
+#header .searchNode {
+	position: absolute;
+	top: 70px;
+	width: 40%;
+	float: left;
+	right: 0;
+}
+
+
+/* ---- CONTAINER -------------------*/
+
+.container_12 {
+	width: 100%;
+}
+
+/* ---- ROTATOR ---------------------*/
+
+#homeRotate {
+	margin-bottom: 0;
+	height: 450px;
+}
+
+#homeRotate .detailsShort {
+	height: 450px!important;
+}
+
+#homeRotate .detailsShort .matrixLayoutShort {
+      height: 450px !important;
+      box-shadow: none;
+      background-image: url('http://rspb.maps.arcgis.com/sharing/rest/content/items/ca9b7435d18942a3b02780617611098e/data');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      border-radius: 0;
+      border-bottom: 20px solid #242833;
+}
+
+
+/* ---- FEATURED --------------------*/
+
+#featuredMaps {
+	background: none;
+	border: 0;
+	/* margin-top: 35px; */
+	margin-bottom: 0;
+	box-shadow: none;
+	width: 960px;
+	margin: 35px auto 0;
+}
+
+#featuredMaps #fHeader,
+#featuredMaps #fHeader h2 {
+	display:none;
+}
+
+#featuredMaps .prevButton {
+	background: url('http://www.nats.aero/wp-content/themes/nats-sas/images/arrow-left.png');
+	width: 50px;
+	height: 50px;
+	left: -40px;
+}
+
+#featuredMaps .nextButton {
+	background: url('http://www.nats.aero/wp-content/themes/nats-sas/images/arrow-right.png');
+	width: 50px;
+	height: 50px;
+	right: -40px;
+}
+
+#featuredMaps .prevButton,
+#featuredMaps .nextButton {
+	top: 38%;
+	margin-top: -25px;
+}
+
+.prevButtonDisabled,
+.nextButtonDisabled {
+	opacity: 0.6;
+}
+
+#gallery .galleryNode .galleryThumbnail {
+	border: 0;
+	padding: 6px;
+	border-radius: 0;
+	box-shadow: none;
+	background: none;
+}
+
+.galleryBackground {
+	height: 230px;
+}
+
+/* ---- BOTTOM CONTENT ----------------*/
+#bottomContent {
+	width: 960px;
+	margin: 0 auto 20px;
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+#bottomContent #organizationSection {
+	border-bottom: none;
+	text-align: center;
+}
+
+#bottomContent .content {
+	margin: 0;
+	padding: 0;
+}
+
+#bottomContent #orgDetails {
+	width: 960px;
+}
+
+#bottomContent #orgDetails font > span > font {
+	color: #242833!important;
+	font-size: .8725em;
+}
+
+/* ---- SEARCH DROPDOWN ---------------*/
+
+.center960 .search .domains {
+	left: 0;
+	width: 100%;
+	top: 38px;
+}
+
+.center960 .search .domains a {
+	margin-right: 0;
+}
+
+.search .domains a:hover {
+	background: #989ead;
+}
+
+.search .domains a.selected {
+	background: #242833;
+}
+
+.esri #search-form .esriSearchBox.dijitTextBox {
+	border-radius: 0;
+	border: none;
+}
