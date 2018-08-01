@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #masthead .backdrop {
-	background: url("https://www.arcgis.com/sharing/rest/content/items/88c31b0019264876b99004ef35439278/resources/Headline_Background_Texture__1506690491577__thumb.jpg?token=Yg7RkBCacI_Uaxpuu4jwuFwek4r2aiqSNz8gbt9J14PuvhZS5lNNUfv9dHbp-c-iRD6DKk7BzuAzb2AtsMd-zMstBPrqLfvMsvuvkOHXczM3jEIZ-0yGoGiDhy8e_6530E7ikzTjntuWzaTcbhTLFfXV2xfAX3Q1dpxqKNyUrTJTKKh3uyKgBVpk3dbsiDrlyK3RKNY4dmQYZmbPbYZcNDRJZMlrjZhOq-WPGWQ5nKY.") center;
+	background: url("http://rspb.maps.arcgis.com/sharing/rest/content/items/aa10096c347c44c79ddd242266ccf1c5/data") center;
 	background-size: contain;
 	margin: auto;
 	margin-top: 40px;
