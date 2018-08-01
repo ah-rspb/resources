@@ -59,7 +59,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #masthead .backdrop {
-	background: url("https://ago-item-storage.s3-external-1.amazonaws.com/aa10096c347c44c79ddd242266ccf1c5/image_rspb_blue_texture_wood.jpg?X-Amz-Security-Token=FQoGZXIvYXdzEBoaDPykJOp37JihzkMJYCK3AwSndLhLX%2BIe8sz9EN7tFPq5nzjcnTgLV7sHSrw0h7qMwvOZTs2a4cj2gsGQ3cB5VIXCeyzIgNYXrbnnV6yht4K3ydIihdgBtACkPU23h1RxzK8UtHMcA392976cl%2FOzHQ42zxTsnzmc6H9cC7MCcs%2FEq1L4VYsdyVURHBU1IFT6YQCbGeSqrrn5Cj%2FEelgZgZIfWUS1kXL2qonR62nJLMLUTzaMrnFXoo6axy4zL%2BAZSwLhfGv9bGmiTpvDCWmtekit5BM6%2BDotBHxHc7YkcW3YTVXR27F5po6y40D62pW6zst3XSJ9FWQs6oPhNqLHXu%2FoCJ2YTRqiG%2BCCyE6YGSf4gqQUgni6KIsYfmNxl08bmmZKna%2BC5S%2BUFiIkXI72HZJuGNRmQdZ0cGuzDjk91CKFo%2Fn01BUBZQIT%2F8TaOEeCX4RwgRSR1dM6ojPMwSv0OcClGxADWsic6mYMYpf%2BqwRwHBGVXcCxtkNeOhSYtnjMb7eZAm3EBy79yh7S1qvj7MnB2xAWjIYWymIcKSKxNSRsSMps1aJ3bn2%2BbIZgLy0VZhWlBkSaHiSbV80JG8t%2BdWzhA9KTN8AotNSF2wU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180801T084121Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAYZTTEKKE26AU6JEM%2F20180801%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4c72494316a4cb7237094e37274714e9b301f4637e9bf97f5010f8ad6c20512d") center;
+	background: url("
+https://www.arcgis.com/sharing/rest/content/items/88c31b0019264876b99004ef35439278/resources/Headline_Background_Texture__1506690491577__thumb.jpg?token=hnXTlE9i0stm4A51C9qY9WT-DADdmNHBP3LWmlMY_zBUg3qT13EuZvHg8YLoT_Yabm2ebmNEEzPpClq4Om3PB4GziQaCQJ-2W7xsFsFI5XdnBVA0iOtFgYHJNPnyBnsg8qxmrq_tG4ZWnT_AhdPmCs0vlO5uPtksL80QPCk887H_k-zfUqmzsFCdZbfYd-1DS6prVxYa3uHECCgYyOjQLudfZnCG8NDAa8UXm3JaUp4.") center;
 	background-size: contain;
 	margin: auto;
 	margin-top: 40px;
