@@ -59,8 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #masthead .backdrop {
-	background: url("
-https://www.arcgis.com/sharing/rest/content/items/88c31b0019264876b99004ef35439278/resources/Headline_Background_Texture__1506690491577__thumb.jpg?token=hnXTlE9i0stm4A51C9qY9WT-DADdmNHBP3LWmlMY_zBUg3qT13EuZvHg8YLoT_Yabm2ebmNEEzPpClq4Om3PB4GziQaCQJ-2W7xsFsFI5XdnBVA0iOtFgYHJNPnyBnsg8qxmrq_tG4ZWnT_AhdPmCs0vlO5uPtksL80QPCk887H_k-zfUqmzsFCdZbfYd-1DS6prVxYa3uHECCgYyOjQLudfZnCG8NDAa8UXm3JaUp4.") center;
+	background: url("https://www.arcgis.com/sharing/rest/content/items/88c31b0019264876b99004ef35439278/resources/Headline_Background_Texture__1506690491577__thumb.jpg?token=hnXTlE9i0stm4A51C9qY9WT-DADdmNHBP3LWmlMY_zBUg3qT13EuZvHg8YLoT_Yabm2ebmNEEzPpClq4Om3PB4GziQaCQJ-2W7xsFsFI5XdnBVA0iOtFgYHJNPnyBnsg8qxmrq_tG4ZWnT_AhdPmCs0vlO5uPtksL80QPCk887H_k-zfUqmzsFCdZbfYd-1DS6prVxYa3uHECCgYyOjQLudfZnCG8NDAa8UXm3JaUp4.") center;
 	background-size: contain;
 	margin: auto;
 	margin-top: 40px;
