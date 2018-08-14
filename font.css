@@ -26,11 +26,27 @@ h1, h2, h3, h4, h5, h6 {
     color: #007dc3;
 }
 
+/* Header */
+
+.navbar-default {
+    background-color: transparent !important;
+    background-image: url('https://rspb.maps.arcgis.com/sharing/rest/content/items/fd9884eae9124b288058fe09690c0366/data');
+    background-size: cover;
+}
+
+.navbar-default .navbar-nav > li > a {
+    background-color: transparent !important;
+}
+
+.site-header .navbar-header img {
+    padding: 10px 0 5px;
+}
+
 /* Masthead */
 
 #masthead {
     padding-top: 50px;
-    padding-bottom: 90px;
+    padding-bottom: 40px;
 }
 
 #masthead .butterfly {
@@ -59,11 +75,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #masthead .backdrop {
-	background: url("https://www.arcgis.com/sharing/rest/content/items/88c31b0019264876b99004ef35439278/resources/Headline_Background_Texture__1506690491577__thumb.jpg?token=hnXTlE9i0stm4A51C9qY9WT-DADdmNHBP3LWmlMY_zBUg3qT13EuZvHg8YLoT_Yabm2ebmNEEzPpClq4Om3PB4GziQaCQJ-2W7xsFsFI5XdnBVA0iOtFgYHJNPnyBnsg8qxmrq_tG4ZWnT_AhdPmCs0vlO5uPtksL80QPCk887H_k-zfUqmzsFCdZbfYd-1DS6prVxYa3uHECCgYyOjQLudfZnCG8NDAa8UXm3JaUp4.") center;
+	background: url("https://rspb.maps.arcgis.com/sharing/rest/content/items/8094c1edc3244b6ea368477d65fc0fb4/data") center;
 	background-size: contain;
 	margin: auto;
 	margin-top: 40px;
-	width: 75vw;
 }
 
 #masthead .text {
@@ -81,21 +96,33 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Find Data */
 
-.page-index #main-region section:nth-child(2) {
-    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 86%, 0 100%);
-    clip-path: polygon(0% 0%, 100% 10%, 100% 86%, 0 100%);
-    padding-top: 20px;
-    padding-bottom: 60px;
-}
-
 .page-index .jumbotron {
     margin-top: 0;
 }
 
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .jumbotron h1 {
-    font-size: 52px;
-    color: #fff;
+    font-size: 34px;
+    margin-bottom: 2rem;
     text-shadow: none;
+}
+
+.jumbotron .form-group .form-control {
+    height: 38px;
+    border-radius: 3px;
+}
+
+.jumbotron .form-group:first-child .form-control {
+    width: 360px;
+}
+
+.jumbotron button {
+    height: 38px;
+    border-radius: 3px;
 }
 
 /* Category Cards */
@@ -165,4 +192,12 @@ table.latest th {
 }
 
 table.latest tr:nth-child(even) {
+}
+
+.gallery-card .card-content {
+    height: auto !important;
+}
+
+.gallery-card .card-content > a {
+    margin-bottom: 20px;   
 }
